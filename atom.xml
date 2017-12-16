@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hongkai Ding</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://dinghongkai.com/"/>
+  <updated>2017-12-16T03:25:46.958Z</updated>
+  <id>http://dinghongkai.com/</id>
+  
+  <author>
+    <name>Hongkai Ding</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The Skill of Communication</title>
+    <link href="http://dinghongkai.com/2017/12/15/The-Skill-of-Communication/"/>
+    <id>http://dinghongkai.com/2017/12/15/The-Skill-of-Communication/</id>
+    <published>2017-12-15T23:43:33.000Z</published>
+    <updated>2017-12-16T03:25:46.958Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Skills" scheme="http://dinghongkai.com/tags/Skills/"/>
+    
+  </entry>
+  
+</feed>
