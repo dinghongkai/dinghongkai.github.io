@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>THINK DIFFERENT</title>
+  <title>HKDing&#39;s Blog</title>
   
-  
+  <subtitle>Reading $ Thinking $ Writing</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dinghongkai.com/"/>
-  <updated>2017-12-17T04:50:24.661Z</updated>
+  <updated>2017-12-17T11:00:27.011Z</updated>
   <id>http://dinghongkai.com/</id>
   
   <author>
@@ -17,23 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>The Skill of Communication</title>
-    <link href="http://dinghongkai.com/2017/12/15/The-Skill-of-Communication/"/>
-    <id>http://dinghongkai.com/2017/12/15/The-Skill-of-Communication/</id>
+    <title>Github+Hexo+Next主题优化</title>
+    <link href="http://dinghongkai.com/2017/12/15/Github+Hexo+Next%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/"/>
+    <id>http://dinghongkai.com/2017/12/15/Github+Hexo+Next主题优化/</id>
     <published>2017-12-15T23:43:33.000Z</published>
-    <updated>2017-12-17T04:50:24.661Z</updated>
+    <updated>2017-12-17T11:00:27.011Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1.&quot;&gt;&lt;/a&gt;1.&lt;/h2&gt;&lt;h2 id=&quot;2&quot;&gt;&lt;a href=&quot;#2&quot; class=&quot;headerlink&quot; title=&quot;2.&quot;&gt;&lt;/a&gt;2.&lt;/h2&gt;&lt;h2 id=&quot;3&quot;
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;引用的博文&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://yangbingdong.com/2017/build-blog-hexo-advanced/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;基于Hexo搭建个人
       
     
     </summary>
     
     
-      <category term="Skills" scheme="http://dinghongkai.com/tags/Skills/"/>
+      <category term="Github" scheme="http://dinghongkai.com/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://dinghongkai.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="http://dinghongkai.com/tags/Next/"/>
+    
+      <category term="Markdown" scheme="http://dinghongkai.com/tags/Markdown/"/>
     
   </entry>
   
