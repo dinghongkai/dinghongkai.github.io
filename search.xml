@@ -3,9 +3,32 @@
   
     
     <entry>
+      <title><![CDATA[test]]></title>
+      <url>/2017/12/17/test/</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+
+<p><img src="https://" alt="" style="width:100%"></p>
+<a id="more"></a>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"http://devtest.qiniudn.com/若能绽放光芒.mp4","pic":"http://devtest.qiniudn.com/若能绽放光芒.png"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"http://dplayer.daoapp.io","token":"tokendemo","addition":["https://dplayer.daoapp.io/bilibili?aid=4157142"]}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+<p>iframe标签</p>
+<p>代码：</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">iframe</span> <span class="attribute">width</span>=<span class="string">"200"</span> height=<span class="string">"100"</span> src=<span class="string">"https://www.youtube.com/embed/4zLfCnGVeL4"</span> frameborder=<span class="string">"0"</span> gesture=<span class="string">"media"</span> allow=<span class="string">"encrypted-media"</span> allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<iframe width="200" height="100" src="https://www.youtube.com/embed/4zLfCnGVeL4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+
+<p>##</p>
+<p>##</p>
+<p>##</p>
+<hr>]]></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Github+Hexo+Next主题优化]]></title>
       <url>/2017/12/15/Github+Hexo+Next%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</url>
-      <content type="html"><![CDATA[<a id="more"></a>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>
 <p>引用的博文</p>
 <p><a href="http://yangbingdong.com/2017/build-blog-hexo-advanced/" target="_blank" rel="noopener">基于Hexo搭建个人博客——进阶篇(从入门到入土)</a></p>
 <p><a href="https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html" target="_blank" rel="noopener">打造个性超赞博客Hexo+NexT+GithubPages的超深度优化</a></p>
