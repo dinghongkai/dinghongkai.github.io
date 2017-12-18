@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dinghongkai.com/"/>
-  <updated>2017-12-17T22:13:14.580Z</updated>
+  <updated>2017-12-18T07:04:35.929Z</updated>
   <id>http://dinghongkai.com/</id>
   
   <author>
@@ -17,47 +17,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://dinghongkai.com/2017/12/17/test/"/>
-    <id>http://dinghongkai.com/2017/12/17/test/</id>
-    <published>2017-12-17T20:20:49.000Z</published>
-    <updated>2017-12-17T22:13:14.580Z</updated>
+    <title>Github+Hexo+Next主题定制</title>
+    <link href="http://dinghongkai.com/2017/12/18/Github+Hexo+Next_theme_Customization/"/>
+    <id>http://dinghongkai.com/2017/12/18/Github+Hexo+Next_theme_Customization/</id>
+    <published>2017-12-18T06:57:18.000Z</published>
+    <updated>2017-12-18T07:04:35.929Z</updated>
     
     <summary type="html">
     
       &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
     
     </summary>
     
+      <category term="Web" scheme="http://dinghongkai.com/categories/Web/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Github+Hexo+Next主题优化</title>
-    <link href="http://dinghongkai.com/2017/12/15/Github+Hexo+Next%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/"/>
-    <id>http://dinghongkai.com/2017/12/15/Github+Hexo+Next主题优化/</id>
-    <published>2017-12-15T23:43:33.000Z</published>
-    <updated>2017-12-17T11:00:27.011Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=&quot;\assets\js\APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.
-      
-    
-    </summary>
-    
-    
-      <category term="Github" scheme="http://dinghongkai.com/tags/Github/"/>
     
       <category term="Hexo" scheme="http://dinghongkai.com/tags/Hexo/"/>
     
       <category term="Next" scheme="http://dinghongkai.com/tags/Next/"/>
-    
-      <category term="Markdown" scheme="http://dinghongkai.com/tags/Markdown/"/>
     
   </entry>
   
