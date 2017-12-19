@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>HKDing&#39;s Blog</title>
   
-  <subtitle>Reading $ Thinking $ Writing</subtitle>
+  <subtitle>Reading &amp; Thinking &amp; Writing</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dinghongkai.com/"/>
-  <updated>2017-12-19T08:20:47.153Z</updated>
+  <updated>2017-12-19T23:21:42.337Z</updated>
   <id>http://dinghongkai.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://dinghongkai.com/2017/12/19/Blog-development-6-Customized-Style-of-Writing/"/>
     <id>http://dinghongkai.com/2017/12/19/Blog-development-6-Customized-Style-of-Writing/</id>
     <published>2017-12-19T07:37:21.000Z</published>
-    <updated>2017-12-19T08:20:47.153Z</updated>
+    <updated>2017-12-19T23:21:42.337Z</updated>
     
     <summary type="html">
     
@@ -43,13 +43,11 @@
     <link href="http://dinghongkai.com/2017/12/19/Blog-development-5-NexT-Theme-Advanced-Customization/"/>
     <id>http://dinghongkai.com/2017/12/19/Blog-development-5-NexT-Theme-Advanced-Customization/</id>
     <published>2017-12-19T06:55:32.000Z</published>
-    <updated>2017-12-19T07:39:26.257Z</updated>
+    <updated>2017-12-19T21:27:32.911Z</updated>
     
     <summary type="html">
     
       &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -131,7 +129,7 @@
     <link href="http://dinghongkai.com/2017/12/18/Blog-development-1-Know-Static-Site-Generator/"/>
     <id>http://dinghongkai.com/2017/12/18/Blog-development-1-Know-Static-Site-Generator/</id>
     <published>2017-12-18T18:45:50.000Z</published>
-    <updated>2017-12-19T05:18:58.017Z</updated>
+    <updated>2017-12-19T19:54:38.452Z</updated>
     
     <summary type="html">
     
