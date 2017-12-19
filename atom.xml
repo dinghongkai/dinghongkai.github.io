@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dinghongkai.com/"/>
-  <updated>2017-12-19T06:54:43.106Z</updated>
+  <updated>2017-12-19T08:20:47.153Z</updated>
   <id>http://dinghongkai.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo建站日志 (6) - 添加文章书写样式</title>
+    <link href="http://dinghongkai.com/2017/12/19/Blog-development-6-Customized-Style-of-Writing/"/>
+    <id>http://dinghongkai.com/2017/12/19/Blog-development-6-Customized-Style-of-Writing/</id>
+    <published>2017-12-19T07:37:21.000Z</published>
+    <updated>2017-12-19T08:20:47.153Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Web" scheme="http://dinghongkai.com/categories/Web/"/>
+    
+    
+      <category term="Hexo" scheme="http://dinghongkai.com/tags/Hexo/"/>
+    
+      <category term="NexT" scheme="http://dinghongkai.com/tags/NexT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo建站日志 (5) - NexT 主题进阶配置</title>
+    <link href="http://dinghongkai.com/2017/12/19/Blog-development-5-NexT-Theme-Advanced-Customization/"/>
+    <id>http://dinghongkai.com/2017/12/19/Blog-development-5-NexT-Theme-Advanced-Customization/</id>
+    <published>2017-12-19T06:55:32.000Z</published>
+    <updated>2017-12-19T07:39:26.257Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Web" scheme="http://dinghongkai.com/categories/Web/"/>
+    
+    
+      <category term="Hexo" scheme="http://dinghongkai.com/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo建站日志 (4) - NexT 主题及初步设置</title>
