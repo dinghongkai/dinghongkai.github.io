@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dinghongkai.com/"/>
-  <updated>2017-12-18T07:04:35.929Z</updated>
+  <updated>2017-12-19T05:17:59.465Z</updated>
   <id>http://dinghongkai.com/</id>
   
   <author>
@@ -17,15 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Github+Hexo+Next主题定制</title>
-    <link href="http://dinghongkai.com/2017/12/18/Github+Hexo+Next_theme_Customization/"/>
-    <id>http://dinghongkai.com/2017/12/18/Github+Hexo+Next_theme_Customization/</id>
-    <published>2017-12-18T06:57:18.000Z</published>
-    <updated>2017-12-18T07:04:35.929Z</updated>
+    <title>Hexo建站日志 (4) - NexT 主题及初步配置</title>
+    <link href="http://dinghongkai.com/2017/12/18/Blog-development-4-NexT-Theme-and-Basic-Deployment/"/>
+    <id>http://dinghongkai.com/2017/12/18/Blog-development-4-NexT-Theme-and-Basic-Deployment/</id>
+    <published>2017-12-19T04:22:00.000Z</published>
+    <updated>2017-12-19T05:17:59.465Z</updated>
     
     <summary type="html">
     
       &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://p167ca9at.bkt.clouddn.com/NexT%20Theme.png&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -34,7 +36,71 @@
     
       <category term="Hexo" scheme="http://dinghongkai.com/tags/Hexo/"/>
     
-      <category term="Next" scheme="http://dinghongkai.com/tags/Next/"/>
+      <category term="NexT" scheme="http://dinghongkai.com/tags/NexT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo建站日志 (3) - 深入理解 Hexo</title>
+    <link href="http://dinghongkai.com/2017/12/18/Blog-development-3-Know-Hexo/"/>
+    <id>http://dinghongkai.com/2017/12/18/Blog-development-3-Know-Hexo/</id>
+    <published>2017-12-19T03:38:46.000Z</published>
+    <updated>2017-12-19T05:20:22.725Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://p167ca9at.bkt.clouddn.com/hexo.jpg&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Web" scheme="http://dinghongkai.com/categories/Web/"/>
+    
+    
+      <category term="Hexo" scheme="http://dinghongkai.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo建站日志 (2) - Github Pages + Hexo 创建博客</title>
+    <link href="http://dinghongkai.com/2017/12/18/Blog-development-2-GithubvPages-Hexo/"/>
+    <id>http://dinghongkai.com/2017/12/18/Blog-development-2-GithubvPages-Hexo/</id>
+    <published>2017-12-18T21:32:49.000Z</published>
+    <updated>2017-12-19T05:18:30.343Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;/p&gt;&lt;p class=&quot;description&quot;&gt;&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;http://p167ca9at.bkt.clouddn.com/Github+Hexo.jpg&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;p&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Web" scheme="http://dinghongkai.com/categories/Web/"/>
+    
+    
+      <category term="Hexo" scheme="http://dinghongkai.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo建站日志（1） - 认识 Static Site Generator</title>
+    <link href="http://dinghongkai.com/2017/12/18/Blog-development-1-Know-Static-Site-Generator/"/>
+    <id>http://dinghongkai.com/2017/12/18/Blog-development-1-Know-Static-Site-Generator/</id>
+    <published>2017-12-18T18:45:50.000Z</published>
+    <updated>2017-12-19T05:18:58.017Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://p167ca9at.bkt.clouddn.com/static%20site%20generator.png&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Web" scheme="http://dinghongkai.com/categories/Web/"/>
+    
+    
+      <category term="Hexo" scheme="http://dinghongkai.com/tags/Hexo/"/>
     
   </entry>
   

@@ -3,80 +3,140 @@
   
     
     <entry>
-      <title><![CDATA[Github+Hexo+Next主题定制]]></title>
-      <url>/2017/12/18/Github+Hexo+Next_theme_Customization/</url>
+      <title><![CDATA[Hexo建站日志 (4) - NexT 主题及初步配置]]></title>
+      <url>/2017/12/18/Blog-development-4-NexT-Theme-and-Basic-Deployment/</url>
       <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
 
+<p><img src="http://p167ca9at.bkt.clouddn.com/NexT%20Theme.png" alt="" style="width:100%"></p>
 <a id="more"></a>
-<h2 id="文字增加背景色块"><a href="#文字增加背景色块" class="headerlink" title="文字增加背景色块"></a>文字增加背景色块</h2><figure class="highlight plain"><figcaption><span>~themes/next/source/css/_custom/custom.styl</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br></pre></td><td class="code"><pre><span class="line">// 下载样式</span><br><span class="line">a#download &#123;</span><br><span class="line">display: inline-block;</span><br><span class="line">padding: 0 10px;</span><br><span class="line">color: #000;</span><br><span class="line">background: transparent;</span><br><span class="line">border: 2px solid #000;</span><br><span class="line">border-radius: 2px;</span><br><span class="line">transition: all .5s ease;</span><br><span class="line">font-weight: bold;</span><br><span class="line">&amp;:hover &#123;</span><br><span class="line">background: #000;</span><br><span class="line">color: #fff;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-黄</span><br><span class="line">span#inline-yellow &#123;</span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:#fff;</span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: #f0ad4e;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-绿</span><br><span class="line">span#inline-green &#123;</span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:#fff;</span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: #5cb85c;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-蓝</span><br><span class="line">span#inline-blue &#123;</span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:#fff;</span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: #2780e3;</span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-紫</span><br><span class="line">span#inline-purple &#123;</span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:#fff;</span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: #9954bb;</span><br><span class="line">&#125;</span><br><span class="line">// 左侧边框红色块级</span><br><span class="line">p#div-border-left-red &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-left-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-left-color: #df3e3e;</span><br><span class="line">&#125;</span><br><span class="line">// 左侧边框黄色块级</span><br><span class="line">p#div-border-left-yellow &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-left-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-left-color: #f0ad4e;</span><br><span class="line">&#125;</span><br><span class="line">// 左侧边框绿色块级</span><br><span class="line">p#div-border-left-green &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-left-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-left-color: #5cb85c;</span><br><span class="line">&#125;</span><br><span class="line">// 左侧边框蓝色块级</span><br><span class="line">p#div-border-left-blue &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-left-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-left-color: #2780e3;</span><br><span class="line">&#125;</span><br><span class="line">// 左侧边框紫色块级</span><br><span class="line">p#div-border-left-purple &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-left-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-left-color: #9954bb;</span><br><span class="line">&#125;</span><br><span class="line">// 右侧边框红色块级</span><br><span class="line">p#div-border-right-red &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-right-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-right-color: #df3e3e;</span><br><span class="line">&#125;</span><br><span class="line">// 右侧边框黄色块级</span><br><span class="line">p#div-border-right-yellow &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-right-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-right-color: #f0ad4e;</span><br><span class="line">&#125;</span><br><span class="line">// 右侧边框绿色块级</span><br><span class="line">p#div-border-right-green &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-right-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-right-color: #5cb85c;</span><br><span class="line">&#125;</span><br><span class="line">// 右侧边框蓝色块级</span><br><span class="line">p#div-border-right-blue &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-right-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-right-color: #2780e3;</span><br><span class="line">&#125;</span><br><span class="line">// 右侧边框紫色块级</span><br><span class="line">p#div-border-right-purple &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-right-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-right-color: #9954bb;</span><br><span class="line">&#125;</span><br><span class="line">// 上侧边框红色</span><br><span class="line">p#div-border-top-red &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-top-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-top-color: #df3e3e;</span><br><span class="line">&#125;</span><br><span class="line">// 上侧边框黄色</span><br><span class="line">p#div-border-top-yellow &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-top-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-top-color: #f0ad4e;</span><br><span class="line">&#125;</span><br><span class="line">// 上侧边框绿色</span><br><span class="line">p#div-border-top-green &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-top-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-top-color: #5cb85c;</span><br><span class="line">&#125;</span><br><span class="line">// 上侧边框蓝色</span><br><span class="line">p#div-border-top-blue &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-top-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-top-color: #2780e3;</span><br><span class="line">&#125;</span><br><span class="line">// 上侧边框紫色</span><br><span class="line">p#div-border-top-purple &#123;</span><br><span class="line">display: block;</span><br><span class="line">padding: 10px;</span><br><span class="line">margin: 10px 0;</span><br><span class="line">border: 1px solid #ccc;</span><br><span class="line">border-top-width: 5px;</span><br><span class="line">border-radius: 3px;</span><br><span class="line">border-top-color: #9954bb;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<p><span id="inline-blue"> 站点配置文件 </span><br><span id="inline-purple"> 主题配置文件 </span><br><span id="inline-yellow"> 站点配置文件 </span><br><span id="inline-green"> 主题配置文件 </span></p>
-<p>代码如下：</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"inline-blue"</span>&gt;</span> 站点配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"inline-purple"</span>&gt;</span> 主题配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"inline-yellow"</span>&gt;</span> 站点配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"inline-green"</span>&gt;</span> 主题配置文件 <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="图形边框效果"><a href="#图形边框效果" class="headerlink" title="图形边框效果"></a>图形边框效果</h2><p>图形同样从<a href="http://fontawesome.io/examples/" target="_blank" rel="noopener">Font Awesome</a>调用。</p>
-<p>效果：</p>
-<p><a id="download" href="https://git-scm.com/download/win" target="_blank" rel="noopener"><i class="fa fa-download"></i><span> Download Now</span><br></a></p>
-<p>代码如下：</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"download"</span> <span class="attr">href</span>=<span class="string">"https://git-scm.com/download/win"</span>&gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-download"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span> Download Now<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="修改字体"><a href="#修改字体" class="headerlink" title="修改字体"></a>修改字体</h2><h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3><figure class="highlight plain"><figcaption><span>～/themes/next/source/css/_variables/base.styl</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$font-size-base   = 16px</span><br></pre></td></tr></table></figure>
-<h3 id="字体样式"><a href="#字体样式" class="headerlink" title="字体样式"></a>字体样式</h3><h4 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h4><p>推荐阅读：</p>
-<p><a href="https://www.voyax.me/posts/59710/" target="_blank" rel="noopener">Web中文字体排版指南</a><br><a href="https://blog.coding.net/blog/Web-Fonts" target="_blank" rel="noopener">Web 字体的选择和运用</a><br><a href="https://segmentfault.com/a/1190000006110417" target="_blank" rel="noopener">如何优雅的选择字体(font-family)</a><br><a href="http://www.ruanyifeng.com/blog/2014/07/chinese_fonts.html" target="_blank" rel="noopener">中文字体网页开发指南</a><br><a href="https://csspod.com/using-the-system-font-in-web-content/" target="_blank" rel="noopener">在Web内容中使用系统字体</a></p>
-<h4 id="英文"><a href="#英文" class="headerlink" title="英文"></a>英文</h4><ol>
-<li>去<a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a>找自己喜欢的英文字体;</li>
-<li>然后编辑主题配置文件，参考<a href="http://theme-next.iissnan.com/theme-settings.html#fonts-customization" target="_blank" rel="noopener">NexT官方文档</a>. </li>
-</ol>
-<p>文件位置：~/themes/next/_config.yml</p>
-<p>代码示例：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Uri of fonts host. E.g. //fonts.googleapis.com (Default)</span></span><br><span class="line">  <span class="comment"># 亲测这个可用，如果不可用，自己搜索 [Google 字体 国内镜像]，找个能用的就行</span></span><br><span class="line"><span class="attr">  host:</span> <span class="attr">https://fonts.cat.net</span></span><br><span class="line">  <span class="comment"># Global font settings used on &lt;body&gt; element.</span></span><br><span class="line"><span class="attr">  global:</span></span><br><span class="line"><span class="comment"># external: true will load this font family from host.</span></span><br><span class="line"><span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">family:</span> <span class="string">Lato</span></span><br><span class="line">  <span class="comment"># Font settings for Headlines (h1, h2, h3, h4, h5, h6)</span></span><br><span class="line">  <span class="comment"># Fallback to `global` font settings.</span></span><br><span class="line"><span class="attr">  headings:</span></span><br><span class="line"><span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">family:</span> <span class="string">Roboto</span> <span class="string">Slab</span></span><br><span class="line">  <span class="comment"># Font settings for posts</span></span><br><span class="line">  <span class="comment"># Fallback to `global` font settings.</span></span><br><span class="line"><span class="attr">  posts:</span></span><br><span class="line"><span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">family:</span></span><br><span class="line">  <span class="comment"># Font settings for Logo</span></span><br><span class="line">  <span class="comment"># Fallback to `global` font settings.</span></span><br><span class="line">  <span class="comment"># The `size` option use `px` as unit</span></span><br><span class="line"><span class="attr">  logo:</span></span><br><span class="line"><span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">family:</span></span><br><span class="line"><span class="attr">size:</span></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line"><span class="attr">  codes:</span></span><br><span class="line"><span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">family:</span> <span class="string">Roboto</span> <span class="string">Mono</span></span><br><span class="line"><span class="attr">size:</span></span><br></pre></td></tr></table></figure>
-<h2 id="注脚-footnotes"><a href="#注脚-footnotes" class="headerlink" title="注脚(footnotes)"></a>注脚(footnotes)</h2><p>参考<a href="https://github.com/LouisBarranqueiro/hexo-footnotes#hexo-footnotes" target="_blank" rel="noopener">README</a></p>
-<h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><p>在Hexo默认路径下运行以下代码：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-footnotes <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
-<h3 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h3><p>##markdown##</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">basic footnote<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></span><br><span class="line">here is an inline footnote[<span class="string">^2</span>](<span class="link">inline footnote</span>)</span><br><span class="line">and another one<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></span><br><span class="line">and another one<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></span><br><span class="line"></span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">basic footnote content</span></span><br><span class="line">[<span class="symbol">^3</span>]: <span class="link">paragraph</span></span><br><span class="line">footnote</span><br><span class="line">content</span><br><span class="line">[<span class="string">^4</span>]: footnote content with some [<span class="string">markdown</span>](<span class="link">https://en.wikipedia.org/wiki/Markdown</span>)</span><br></pre></td></tr></table></figure>
-<h2 id="代码块高亮"><a href="#代码块高亮" class="headerlink" title="代码块高亮"></a>代码块高亮</h2><p>参考：</p>
-<p><a href="https://zhuzhuyule.com/blog/HEXO/HEXO%E4%B8%8B%E7%9A%84%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE%E6%8B%93%E5%B1%95%E4%BF%AE%E6%94%B9.html" target="_blank" rel="noopener">HEXO下的语法高亮拓展修改</a></p>
-<h2 id="文本居中"><a href="#文本居中" class="headerlink" title="文本居中"></a>文本居中</h2><p>效果：</p>
-<blockquote class="blockquote-center"><p>人生乃是一面镜子，<br>从镜子里认识自己，<br>我要称之为头等大事，<br>也只是我们追求的目的！</p>
-</blockquote>
-<p>代码：</p>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">人生乃是一面镜子，</span></span><br><span class="line"><span class="xml">从镜子里认识自己，</span></span><br><span class="line"><span class="xml">我要称之为头等大事，</span></span><br><span class="line"><span class="xml">也只是我们追求的目的！</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
-<h2 id="Note标签"><a href="#Note标签" class="headerlink" title="Note标签"></a>Note标签</h2><p>在主题配置文件 ~/blog/themes/next/_config.yml 中修改。</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Note tag (bs-callout).</span></span><br><span class="line"><span class="attr">note:</span></span><br><span class="line">  <span class="comment"># 风格</span></span><br><span class="line"><span class="attr">  style:</span> <span class="string">flat</span></span><br><span class="line">  <span class="comment"># 要不要图标</span></span><br><span class="line"><span class="attr">  icons:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 圆角矩形</span></span><br><span class="line"><span class="attr">  border_radius:</span> <span class="number">3</span></span><br><span class="line"><span class="attr">  light_bg_offset:</span> <span class="number">0</span></span><br></pre></td></tr></table></figure>
-<p>效果与代码：</p>
-<div class="note default"><p>default</p></div>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"note default"</span>&gt;<span class="xml"><span class="tag">&lt;<span class="name">p</span>&gt;</span>default<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-<div class="note primary"><p>primary</p></div>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"note primary"</span>&gt;<span class="xml"><span class="tag">&lt;<span class="name">p</span>&gt;</span>primary<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-<div class="note success"><p>success</p></div>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"note success"</span>&gt;<span class="xml"><span class="tag">&lt;<span class="name">p</span>&gt;</span>success<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-<div class="note info"><p>info</p></div>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"note info"</span>&gt;<span class="xml"><span class="tag">&lt;<span class="name">p</span>&gt;</span>info<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-<div class="note warning"><p>warning</p></div>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"note warning"</span>&gt;<span class="xml"><span class="tag">&lt;<span class="name">p</span>&gt;</span>warning<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-<div class="note danger"><p>danger</p></div>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"note danger"</span>&gt;<span class="xml"><span class="tag">&lt;<span class="name">p</span>&gt;</span>danger<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-<div class="note danger no-icon"><p>danger no-icon</p></div>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"note danger no-icon"</span>&gt;<span class="xml"><span class="tag">&lt;<span class="name">p</span>&gt;</span>danger no-icon<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-<h2 id="引用-自定义样式"><a href="#引用-自定义样式" class="headerlink" title="引用 - 自定义样式"></a>引用 - 自定义样式</h2><p>文件位置：~/themes/next/source/css/_custom/custom.styl</p>
-<p>配置：</p>
-<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 自定义的引用样式</span></span><br><span class="line"><span class="selector-tag">blockquote</span><span class="selector-class">.question</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#555</span>; <span class="comment">// 文字颜色</span></span><br><span class="line">    <span class="attribute">border-left</span>: <span class="number">4px</span> solid rgb(<span class="number">16</span>, <span class="number">152</span>, <span class="number">173</span>); <span class="comment">// 边框颜色和粗细</span></span><br><span class="line">    <span class="attribute">background-color</span>: rgb(<span class="number">227</span>, <span class="number">242</span>, <span class="number">253</span>); <span class="comment">// 背景颜色</span></span><br><span class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">border-bottom-right-radius</span>: <span class="number">3px</span>;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">20px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>效果与代码：</p>
-<blockquote class="question">内容</blockquote>
-
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">class</span>=<span class="string">"question"</span>&gt;</span>内容<span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="数字块-自定义样式"><a href="#数字块-自定义样式" class="headerlink" title="数字块 - 自定义样式"></a>数字块 - 自定义样式</h2><p>文件位置：~/themes/next/source/css/_custom/custom.styl</p>
-<p>配置：</p>
-<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 自定义的数字块</span></span><br><span class="line">    <span class="selector-tag">span</span><span class="selector-id">#inline-toc</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">80%</span> <span class="number">100%</span> <span class="number">90%</span> <span class="number">20%</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: rgb(<span class="number">227</span>, <span class="number">242</span>, <span class="number">253</span>);</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#555</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0.05em</span> <span class="number">0.4em</span>;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">2px</span> <span class="number">5px</span> <span class="number">2px</span> <span class="number">0px</span>;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">1.5</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>效果与代码：</p>
-<p><span id="inline-toc">1.</span></p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"inline-toc"</span>&gt;</span>1.<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置，将其称为 <span id="inline-blue"> 站点配置文件 </span>；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项，将其称为 <span id="inline-purple"> 主题配置文件 </span>。</p>
+<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>如若不喜欢Hexo默认的主题，可以更换不同的主题，主题传送门：<a href="https://hexo.io/themes/" target="_blank" rel="noopener">Themes</a>。</p>
+<p>我使用的是以“精致简约”著称的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">NexT</a>主题。</p>
+<p>在 <span id="inline-blue"> 指定文件夹 </span> 路径下，用命令行输入：</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/iissnan/hexo-theme-<span class="keyword">next</span> themes/<span class="keyword">next</span></span><br></pre></td></tr></table></figure>
+<p>这会将 NexT 主题下载到 <span id="inline-blue"> 指定文件夹 </span> 下的 themes 文件夹里。</p>
+<h2 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h2><p>打开 <span id="inline-blue"> 站点配置文件 </span>（_config.yml），找到  theme 字段，并将其值更改为 next，如下图所示。</p>
+<p><img src="http://p167ca9at.bkt.clouddn.com/theme%20-%20next.png" alt="" style="width:100%"></p>
+<p>再在命令行依次输入：</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate </span><br><span class="line">hexo<span class="built_in"> server </span></span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>即可部署成功。</p>
+<h2 id="NexT-主题初步配置"><a href="#NexT-主题初步配置" class="headerlink" title="NexT 主题初步配置"></a>NexT 主题初步配置</h2><h3 id="选择-Scheme"><a href="#选择-Scheme" class="headerlink" title="选择 Scheme"></a>选择 Scheme</h3><p>Scheme 是 NexT 提供的一种特性，借助于 Scheme，NexT 为你提供多种不同的外观。同时，几乎所有的配置都可以在 Scheme 之间共用。目前 NexT 支持以下几种 Scheme：</p>
+<ul>
+<li>Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白</li>
+<li>Mist - Muse 的紧凑版本，整洁有序的单栏外观</li>
+<li>Pisces - 双栏 Scheme，小家碧玉似的清新</li>
+<li>Gemini</li>
+</ul>
+<p>Scheme 的切换通过更改 <span id="inline-purple"> 主题配置文件 </span>，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 # 去除即可。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Schemes</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> https://github.com/iissnan/hexo-theme-next<span class="comment">#live-preview</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash">scheme: Muse</span></span><br><span class="line"><span class="meta">#</span><span class="bash">scheme: Mist</span></span><br><span class="line">scheme: Pisces</span><br><span class="line"><span class="meta">#</span><span class="bash">scheme: Gemini</span></span><br></pre></td></tr></table></figure>
+<h3 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h3><p>编辑  <span id="inline-blue"> 站点配置文件 </span>， 将 language 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">language:</span> <span class="built_in">zh</span>-Hans</span><br></pre></td></tr></table></figure>
+<h3 id="设置菜单"><a href="#设置菜单" class="headerlink" title="设置菜单"></a>设置菜单</h3><p>菜单配置包括三个部分:</p>
+<ul>
+<li>菜单项（名称和链接</li>
+<li>菜单项的显示文本</li>
+<li>菜单项对应的图标</li>
+</ul>
+<p>NexT 使用的是 <a href="http://fontawesome.io/" target="_blank" rel="noopener">Font Awesome</a> 提供的图标， Font Awesome 提供了 600+ 的图标，可以满足绝大的多数的场景，同时无须担心在 Retina 屏幕下图标模糊的问题。</p>
+<p>编辑 <span id="inline-purple"> 主题配置文件 </span>，修改以下内容：</p>
+<p><span id="inline-toc">1.</span> 设定菜单内容，对应的字段是 menu。</p>
+<p>菜单内容的设置格式是：<code>item name: link</code>。其中 <code>item name</code> 是一个名称，这个名称并不直接显示在页面上，她将用于匹配图标以及翻译。</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">menu</span>:</span><br><span class="line">  home: /</span><br><span class="line">  archives: /archives</span><br><span class="line">  <span class="selector-id">#about</span>: /about</span><br><span class="line">  <span class="selector-id">#categories</span>: /categories</span><br><span class="line">  tags: /tags</span><br><span class="line">  <span class="selector-id">#commonweal</span>: /<span class="number">404</span>.html</span><br></pre></td></tr></table></figure>
+<p><strong><em>若你的站点运行在子目录中，请将链接前缀的 / 去掉</em></strong></p>
+<p>NexT 默认的菜单项有（标注 <i class="fa fa-exclamation-circle"></i> 的项表示需要手动创建这个页面）：</p>
+<table>
+<thead>
+<tr>
+<th>键值</th>
+<th>设定值</th>
+<th>显示文本（简体中文）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>home</td>
+<td>home: /</td>
+<td>主页</td>
+</tr>
+<tr>
+<td>archives</td>
+<td>archives: /archives</td>
+<td>归档页</td>
+</tr>
+<tr>
+<td>categories</td>
+<td>categories: /categories</td>
+<td>分类页 <i class="fa fa-exclamation-circle"></i></td>
+</tr>
+<tr>
+<td>tags</td>
+<td>tags: /tags</td>
+<td>标签页 <i class="fa fa-exclamation-circle"></i></td>
+</tr>
+<tr>
+<td>about</td>
+<td>about: /about</td>
+<td>关于页面 <i class="fa fa-exclamation-circle"></i></td>
+</tr>
+<tr>
+<td>commonweal</td>
+<td>commonweal: /404.html</td>
+<td>公益 404 <i class="fa fa-exclamation-circle"></i></td>
+</tr>
+</tbody>
+</table>
+<p><span id="inline-toc">2.</span> 设置菜单项的显示文本。</p>
+<p>在第一步中设置的菜单的名称并不直接用于界面上的展示。Hexo 在生成的时候将使用这个名称查找对应的语言翻译，并提取显示文本。这些翻译文本放置在 NexT 主题目录下的 languages/{language}.yml （{language} 为你所使用的语言）。</p>
+<p>以简体中文为例，若你需要添加一个菜单项，比如 something。那么就需要修改简体中文对应的翻译文件 languages/zh-Hans.yml，在 menu 字段下添加一项：</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">menu:</span></span><br><span class="line"><span class="symbol">  home:</span> 首页</span><br><span class="line"><span class="symbol">  archives:</span> 归档</span><br><span class="line"><span class="symbol">  categories:</span> 分类</span><br><span class="line"><span class="symbol">  tags:</span> 标签</span><br><span class="line"><span class="symbol">  about:</span> 关于</span><br><span class="line"><span class="symbol">  search:</span> 搜索</span><br><span class="line"><span class="symbol">  commonweal:</span> 公益<span class="number">404</span></span><br><span class="line"><span class="symbol">  something:</span> 有料</span><br></pre></td></tr></table></figure>
+<p><span id="inline-toc">3.</span> 设定菜单项的图标，对应的字段是 menu_icons。 </p>
+<p>此设定格式是 item name: icon name，其中 item name 与上一步所配置的菜单名字对应，icon name 是 Font Awesome 图标的 名字。而 enable 可用于控制是否显示图标，你可以设置成 false 来去掉图标。</p>
+<p>菜单图标配置示例:</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">menu_icons:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  # Icon Mapping.</span><br><span class="line">  home: home</span><br><span class="line">  about: user</span><br><span class="line">  categories: th</span><br><span class="line">  tags: tags</span><br><span class="line">  archives: archive</span><br><span class="line">  commonweal: heartbeat</span><br></pre></td></tr></table></figure>
+<p>注意：</p>
+<ul>
+<li><p>在菜单图标开启的情况下，如果菜单项与菜单未匹配（没有设置或者无效的 Font Awesome 图标名字） 的情况下，NexT 将会使用  作为图标。</p>
+</li>
+<li><p>在菜单图标开启的情况下，如果菜单项与菜单未匹配（没有设置或者无效的 Font Awesome 图标名字） 的情况下，NexT 将会使用  作为图标。</p>
+</li>
+</ul>
+<h3 id="设置侧栏"><a href="#设置侧栏" class="headerlink" title="设置侧栏"></a>设置侧栏</h3><p>默认情况下，侧栏仅在文章页面（拥有目录列表）时才显示，并放置于右侧位置。 可以通过修改 <span id="inline-purple"> 主题配置文件 </span> 中的 <code>sidebar</code> 字段来控制侧栏的行为。侧栏的设置包括两个部分，其一是侧栏的位置， 其二是侧栏显示的时机。</p>
+<p><span id="inline-toc">1.</span> 设置侧栏的位置，修改 <code>sidebar.position</code> 的值，支持的选项有：</p>
+<ul>
+<li>left - 靠左放置</li>
+<li>right - 靠右放置</li>
+</ul>
+<p><strong><em>目前仅 Pisces Scheme 支持 position 配置。</em></strong></p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">sidebar:</span></span><br><span class="line"><span class="symbol">  position:</span> left</span><br></pre></td></tr></table></figure>
+<p><span id="inline-toc">2.</span> 设置侧栏显示的时机，修改 sidebar.display 的值，支持的选项有：</p>
+<ul>
+<li><code>post</code> - 默认行为，在文章页面（拥有目录列表）时显示</li>
+<li><code>always</code> - 在所有页面中都显示</li>
+<li><code>hide</code> - 在所有页面中都隐藏（可以手动展开）</li>
+<li><code>remove</code> - 完全移除</li>
+</ul>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">sidebar:</span></span><br><span class="line"><span class="symbol">  display:</span> post</span><br></pre></td></tr></table></figure>
+<p><strong><em>已知侧栏在 use motion: false 的情况下不会展示。</em></strong></p>
+<h3 id="设置头像"><a href="#设置头像" class="headerlink" title="设置头像"></a>设置头像</h3><p>编辑 主题配置文件， 修改字段 avatar， 值设置成头像的链接地址。其中，头像的链接地址可以是：</p>
+<table>
+<thead>
+<tr>
+<th>地址</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>完整的互联网</td>
+<td>URI    <a href="http://example.com/avatar.png" target="_blank" rel="noopener">http://example.com/avatar.png</a></td>
+</tr>
+<tr>
+<td>站点内的地址</td>
+<td>将头像放置主题目录下的 source/uploads/ （新建 uploads 目录若不存在）<br> 配置为：avatar: /uploads/avatar.png <br><br>或者 放置在 source/images/ 目录下 <br>配置为：avatar: /images/avatar.png</td>
+</tr>
+</tbody>
+</table>
+<h2 id="参考阅读："><a href="#参考阅读：" class="headerlink" title="参考阅读："></a>参考阅读：</h2><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">NexT 官方文档</a></p>
 <hr>]]></content>
       
         <categories>
@@ -90,7 +150,279 @@
             
             <tag> Hexo </tag>
             
-            <tag> Next </tag>
+            <tag> NexT </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo建站日志 (3) - 深入理解 Hexo]]></title>
+      <url>/2017/12/18/Blog-development-3-Know-Hexo/</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+
+<p><img src="http://p167ca9at.bkt.clouddn.com/hexo.jpg" alt="" style="width:100%"></p>
+<a id="more"></a>
+<h2 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h2><h3 id="Hexo-默认目录结构"><a href="#Hexo-默认目录结构" class="headerlink" title="Hexo 默认目录结构"></a>Hexo 默认目录结构</h3><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy         <span class="meta">#执行hexo deploy命令部署到GitHub上的内容目录</span></span><br><span class="line">├── <span class="keyword">public</span>          <span class="meta">#执行hexo generate命令，输出的静态网页内容目录</span></span><br><span class="line">├── scaffolds       <span class="meta">#layout模板文件目录，其中的md文件可以添加编辑</span></span><br><span class="line">├── scripts         <span class="meta">#扩展脚本目录，这里可以自定义一些javascript脚本</span></span><br><span class="line">├── source          <span class="meta">#文章源码目录，该目录下的markdown和html文件均会被hexo处理。</span></span><br><span class="line">|   ├── _drafts     <span class="meta">#草稿文章</span></span><br><span class="line">|   └── _posts      <span class="meta">#执行hexo new "title"后，新建的文章存储在此文件夹下</span></span><br><span class="line">├── themes          <span class="meta">#主题文件目录</span></span><br><span class="line">├──_config.yml      <span class="meta">#全局配置文件，大多数的设置都在这里</span></span><br><span class="line">└── <span class="keyword">package</span>.json    <span class="meta">#应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</span></span><br></pre></td></tr></table></figure>
+<h3 id="Theme-默认目录结构"><a href="#Theme-默认目录结构" class="headerlink" title="Theme 默认目录结构"></a>Theme 默认目录结构</h3><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">├── .github                 <span class="comment">#git信息</span></span><br><span class="line">├── languages               <span class="comment">#多语言</span></span><br><span class="line">|<span class="string">   ├── default.yml         #默认语言</span></span><br><span class="line">|<span class="string">   └── zh-Hans.yml         #简体中文</span></span><br><span class="line">|<span class="string">   └── zh-tw.yml           #繁体中文</span></span><br><span class="line"><span class="string">├── layout                  #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制</span></span><br><span class="line">|<span class="string">   ├── _custom             #可以自己修改的模板，覆盖原有模板</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── _header.swig    #头部样式</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── _sidebar.swig   #侧边栏样式</span></span><br><span class="line">|<span class="string">   ├── _macro              #可以自己修改的模板，覆盖原有模板</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── post.swig       #文章模板</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── reward.swig     #打赏模板</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── sidebar.swig    #侧边栏模板</span></span><br><span class="line">|<span class="string">   ├── _partial            #局部的布局</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── head            #头部模板</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── search          #搜索模板</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── share           #分享模板</span></span><br><span class="line">|<span class="string">   ├── _script             #局部的布局</span></span><br><span class="line">|<span class="string">   ├── _third-party        #第三方模板</span></span><br><span class="line">|<span class="string">   ├── _layout.swig        #主页面模板</span></span><br><span class="line">|<span class="string">   ├── index.swig          #主页面模板</span></span><br><span class="line">|<span class="string">   ├── page                #页面模板</span></span><br><span class="line">|<span class="string">   └── tag.swig            #tag模板</span></span><br><span class="line"><span class="string">├── scripts                 #script源码</span></span><br><span class="line">|<span class="string">   ├── tags                #tags的script源码</span></span><br><span class="line">|<span class="string">   ├── marge.js            #页面模板</span></span><br><span class="line"><span class="string">├── source                  #源码</span></span><br><span class="line">|<span class="string">   ├── css                 #css源码</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── _common         #*.styl基础css</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   ├── _custom         #*.styl局部css</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">   └── _mixins         #mixins的css</span></span><br><span class="line">|<span class="string">   ├── fonts               #字体</span></span><br><span class="line">|<span class="string">   ├── images              #图片</span></span><br><span class="line">|<span class="string">   ├── uploads             #添加的文件</span></span><br><span class="line">|<span class="string">   └── js                  #javascript源代码</span></span><br><span class="line"><span class="string">├── _config.yml             #主题配置文件</span></span><br><span class="line"><span class="string">└── README.md               #用GitHub的都知道</span></span><br></pre></td></tr></table></figure>
+<h2 id="模板引擎"><a href="#模板引擎" class="headerlink" title="模板引擎"></a>模板引擎</h2><p><em>模板引擎的作用，就是将界面与数据分离。最简单的原理是将模板内容中指定的地方替换成数据，实现业务代码与逻辑代码分离。</em></p>
+<p>我们可以注意到，在 Hexo 中，source 文件夹和 themes 文件夹是在同级的，我们就可以将 source 文件夹理解为数据库，而主题文件夹相当于 界面。然后我们 hexo g 就将我们的数据和界面相结合生成静态文件 public。</p>
+<p>Hexo 的模板引擎是默认使用 ejs 编写的。hexo首先会解析 md 文件，然后根据 layout 判断布局类型，再调用其他的文件，这样每一块的内容都是独立的，提高代码的复用性。最终会生成一个 html 页面。</p>
+<p>模板文件在 layout 文件夹下，layout 文件文档结构如下：</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _custom                           <span class="comment">// 通用布局</span></span><br><span class="line">├── _layout<span class="selector-class">.swig</span>                      <span class="comment">// 默认布局布局</span></span><br><span class="line">├── _macro                            <span class="comment">// 插件模板</span></span><br><span class="line">├── _partials                         <span class="comment">// 局部布局</span></span><br><span class="line">├── _scripts                          <span class="comment">// script模板</span></span><br><span class="line">├── _third-party                      <span class="comment">// 第三方插件模板</span></span><br><span class="line">├── archive<span class="selector-class">.swig</span>                      <span class="comment">// 归档模板</span></span><br><span class="line">├── category<span class="selector-class">.swig</span>                     <span class="comment">// 分类模板</span></span><br><span class="line">├── index<span class="selector-class">.swig</span>                        <span class="comment">// 首页模板</span></span><br><span class="line">├── page<span class="selector-class">.swig</span>                         <span class="comment">// 其他模板</span></span><br><span class="line">├── photo<span class="selector-class">.swig</span>                        <span class="comment">// 照片模板（自定义）</span></span><br><span class="line">├── post<span class="selector-class">.swig</span>                         <span class="comment">// 文章模板</span></span><br><span class="line">├── schedule<span class="selector-class">.swig</span>                     <span class="comment">// 归档模板</span></span><br><span class="line">└── tag<span class="selector-class">.swig</span>                          <span class="comment">// 标签模板</span></span><br></pre></td></tr></table></figure>
+<p>每个模板都默认使用layout布局，您可在文章的前置申明中指定其他布局，比如“post”或者“page”或是设为false来关闭布局功能（如果不填默认是post，这个在_config.yml中可以设置默认值），您甚至可在布局中再使用其他布局来建立嵌套布局。</p>
+<p>在我们新建页面或者新建文章的使用可以选定我们使用的模板。hexo new [layout] <title>就会使用对应的模板。</title></p>
+<p>其中 _layout.swig 是通用模板，里面引入了 head、footer 等公共组件，然后在其他的模板中会引入这个 _layout.swig 通用模板。</p>
+<h2 id="数据的填充"><a href="#数据的填充" class="headerlink" title="数据的填充"></a>数据的填充</h2><p>主题是供了页面的布局和样式，在生成 HTML 文件时，Hexo 会把特定的数据，传给 swig 模板，然后再由 swig 将数据填充到 HTML 文件之中。这些特定的数据，分为如下几类。</p>
+<h3 id="主配置文件数据"><a href="#主配置文件数据" class="headerlink" title="主配置文件数据"></a>主配置文件数据</h3><p>Hexo 的根目录中，有个 _config.yml 文件，它就是主配置文件，数据组织使用 <a href="http://docs.ansible.com/ansible/latest/YAMLSyntax.html" target="_blank" rel="noopener">YAML语法</a> ，其中的项目，可以在模板中直接使用，比如博客的名字、副标题等等之类。</p>
+<h3 id="主题配置文件数据"><a href="#主题配置文件数据" class="headerlink" title="主题配置文件数据"></a>主题配置文件数据</h3><p>每个主题，还有单独的配置文件，用于配置与主题紧密相关的内容，格式与主配置文件一致。只不过变量名为 theme 。</p>
+<p>具体哪些数据放到主配置文件中，哪些数据放到主题配置文件，自由度其实很高，一般的，推荐与博客中的数据相关的，放主配置文件，如博客的名字、作者、菜单配置等，与主题相关的，放到主题配置文件，比如主题的脚本文件列表、样式文件列表等。</p>
+<h3 id="配置文件中数据的使用"><a href="#配置文件中数据的使用" class="headerlink" title="配置文件中数据的使用"></a>配置文件中数据的使用</h3><p>如果要在模板中使用某个具体的值，比如字符串、数字、逻辑变量或者对象的某个成员，可以在主题的模板文件 swig 中直接使用：</p>
+<figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name"><span class="name">block</span></span> title %&#125;</span><span class="xml"> </span><span class="template-variable">&#123;&#123; page.title &#125;&#125;</span><span class="xml"> | </span><span class="template-variable">&#123;&#123; config.title &#125;&#125;</span><span class="xml"> </span><span class="template-tag">&#123;% <span class="name"><span class="name">endblock</span></span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure>
+<h2 id="Hexo-中的变量"><a href="#Hexo-中的变量" class="headerlink" title="Hexo 中的变量"></a>Hexo 中的变量</h2><p>Hexo 提供了很多的<a href="https://hexo.io/docs/variables.html" target="_blank" rel="noopener">变量</a>，比如我们上面使用的 page 变量，还有 site 变量等，这些都是 Hexo 提供的，我们可以拿来直接使用的，常用的变量有：</p>
+<ul>
+<li>site：对应整个网站的变量，一般会用到 site.posts.length 制作分页器。<ul>
+<li>site.posts 所有文章</li>
+<li>site.pages 所有分页</li>
+<li>site.categories 所有分类</li>
+<li>site.tags 所有标签</li>
+</ul>
+</li>
+<li>page：存放当前页面的信息，例如我在 index.ejs 中使用 page.posts 获取了当前页面的所有文章而不是使用 site.posts。</li>
+<li>config：config 变量我们在主目录下配置文件 _config.yml 中保存的信息。</li>
+<li>theme：theme 变量是我们在主题目录下配置文件 _config.yml 中保存的信息。</li>
+<li>path：当前页面的路径（不含根路径）。</li>
+<li>url：页面完整网址。</li>
+</ul>
+<h3 id="页面变量"><a href="#页面变量" class="headerlink" title="页面变量"></a>页面变量</h3><p>Page 这里指的是 hexo new page 创建的那个页面。</p>
+<ul>
+<li>page.title：文章标题</li>
+<li>page.date：文章建立日期</li>
+<li>page.updated：文章更新日期</li>
+<li>page.comments：留言是否开启</li>
+<li>page.layout：布局名称</li>
+<li>page.content：文章完整内容</li>
+<li>page.excerpt：文章摘要</li>
+<li>page.more：除了摘要的其他内容</li>
+<li>page.source：文章原始路劲</li>
+<li>page.full_source：文章完整原始路径</li>
+<li>page.path：文章网址（不含根路径），通常在主题中使用url_for(page.path)</li>
+<li>page.permalink：文章永久网址</li>
+<li>page.prev：上一篇文章，如果此为第一篇文章则为null</li>
+<li>page.next：下一篇文章，如果此为最后一篇文章则为null</li>
+<li>page.raw：文章原始内容</li>
+<li>page.photos：文章的照片（用于相册）</li>
+<li>page.link：文章的外链（用于链接文章）</li>
+</ul>
+<h3 id="Post-变量"><a href="#Post-变量" class="headerlink" title="Post 变量"></a>Post 变量</h3><p>这里指的是文章页面，与page布局相同，添加如下变量：</p>
+<ul>
+<li>page.pulished：文章非草稿为true</li>
+<li>page.categories：文章分类</li>
+<li>page.tags：文章标签</li>
+</ul>
+<h3 id="首页-index"><a href="#首页-index" class="headerlink" title="首页(index)"></a>首页(index)</h3><ul>
+<li>page.per_page：每一页显示的文章数</li>
+<li>page.total：文章数量</li>
+<li>page.current：当前页码</li>
+<li>page.current_url：当前页的URL</li>
+<li>page.posts：当前页的文章</li>
+<li>page.prev：前一页页码，如果为第一页，该值为0</li>
+<li>page.prev_link：前一页URL，如果为第一页，则为’’</li>
+<li>page.next：后一页页码，如果为最后一页，则为0</li>
+<li>page.next_link：后一页URL，如果为最后一页，则为’’</li>
+<li>page.path：当前页网址（不含根路径），通常在主题中使用url_for(page.path)</li>
+</ul>
+<h3 id="归档页-archive"><a href="#归档页-archive" class="headerlink" title="归档页(archive)"></a>归档页(archive)</h3><p>与index布局相同，但是新增如下变量：</p>
+<ul>
+<li>archive 为true</li>
+<li>year 归档年份（4位）</li>
+<li>month 归档月份（不包含0）</li>
+</ul>
+<h2 id="参考阅读："><a href="#参考阅读：" class="headerlink" title="参考阅读："></a>参考阅读：</h2><p><a href="https://segmentfault.com/a/1190000008784436" target="_blank" rel="noopener">hexo原理浅析</a><br><a href="http://cherryblog.site/hexo-4.html" target="_blank" rel="noopener">Hexo 7：【原理】深入理解 Hexo</a><br><a href="http://www.360doc.com/content/16/0913/16/33651124_590545274.shtml#/" target="_blank" rel="noopener">Hexo 主题制作指南</a><br><a href="https://segmentfault.com/a/1190000006057336" target="_blank" rel="noopener">写一个自己的Hexo主题</a></p>
+<hr>]]></content>
+      
+        <categories>
+            
+            <category> Web </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo建站日志 (2) - Github Pages + Hexo 创建博客]]></title>
+      <url>/2017/12/18/Blog-development-2-GithubvPages-Hexo/</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p></p><p class="description"></p><br><img src="http://p167ca9at.bkt.clouddn.com/Github+Hexo.jpg" alt="" style="width:100%"><p></p>
+<a id="more"></a>
+<h2 id="使用-GitHub-Pages-建立博客站点"><a href="#使用-GitHub-Pages-建立博客站点" class="headerlink" title="使用 GitHub Pages 建立博客站点"></a>使用 GitHub Pages 建立博客站点</h2><h3 id="注册-GitHub"><a href="#注册-GitHub" class="headerlink" title="注册 GitHub"></a>注册 GitHub</h3><p>在 <a href="https://github.com/" target="_blank" rel="noopener">Github</a> 进行注册。</p>
+<h3 id="在-GitHub-上建立仓库"><a href="#在-GitHub-上建立仓库" class="headerlink" title="在 GitHub 上建立仓库"></a>在 GitHub 上建立仓库</h3><p>与 GitHub 建立好连接之后，就可以方便的使用它提供的 Pages 服务，<code>GitHub Pages</code> 分两种，一种是用你的 GitHub 用户名建立的 <code>username.github.io</code> 这样的用户&amp;组织站点，另一种是依附项目的 Pages。</p>
+<p>想建立个人博客是用的第一种，形如 <code>username.github.io</code> 这样的可访问的站点，每个用户名下面只能建立一个。</p>
+<p><img src="http://p167ca9at.bkt.clouddn.com/New%20repository%201.png" alt="" style="width:100%"></p>
+<p><img src="http://p167ca9at.bkt.clouddn.com/New%20repository%202.png" alt="" style="width:100%"></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><p>什么是Git ?简单来说Git是开源的分布式版本控制系统，用于敏捷高效地处理项目。我们网站在本地搭建好了，需要使用Git同步到GitHub上。如果想要了解Git的细节，参看廖雪峰老师的<a href="(https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git教程</a>)。</p>
+<p>到 <a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a> 官网下载相应版本进行安装。</p>
+<p>Windows系统可直接点此下载：<a id="download" href="https://git-scm.com/download/win" target="_blank" rel="noopener"><i class="fa fa-download"></i><span> Download Now</span><br></a></p>
+<p>安装成功后，将 <code>Git</code> 与 <code>GitHub</code> 帐号绑定。在菜单栏里搜索并打开 <code>Git Bash</code>，设置user.name和user.email配置信息：</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git<span class="built_in"> config </span>--global user.name <span class="string">"你的GitHub用户名"</span></span><br><span class="line">git<span class="built_in"> config </span>--global user.email <span class="string">"你的GitHub注册邮箱"</span></span><br></pre></td></tr></table></figure>
+<p>生成ssh密钥文件：</p>
+<figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -<span class="built_in">t</span> rsa -C <span class="string">"你的GitHub注册邮箱"</span></span><br></pre></td></tr></table></figure>
+<p>直接三个回车即可，默认不需要设置密码。在 <code>C:\Users\username</code>路径下，找到生成的 <code>.ssh</code> 的文件夹，进入并找到 <code>id_rsa.pub</code> 文件，用记事本打开，将内容全部复制下来。</p>
+<p>打开 <a href="https://github.com/settings/keys" target="_blank" rel="noopener">GitHub_Settings_keys</a> 页面，新建 <code>New SSH Key</code> ，如下图所示。</p>
+<p><img src="http://p167ca9at.bkt.clouddn.com/New%20SSH%20Key.png" alt="" style="width:100%"></p>
+<p>Title 为标题，任意填即可，将刚刚复制的 id_rsa.pub 内容粘贴进去，最后点击 Add SSH key 。</p>
+<p>接下来检测 GitHub 公钥设置是否成功，在 <code>Git Bash</code> 中输入：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">git</span>@<span class="keyword">github</span>.<span class="keyword">com</span></span><br></pre></td></tr></table></figure>
+<p>如出现：</p>
+<p><code>The authenticity of host &#39;github.com (207.97.227.239)&#39; can&#39;t be established.</code></p>
+<p>直接输入 yes，就配置成功了。</p>
+<p>之所以设置 GitHub 密钥原因是，通过非对称加密的公钥与私钥来完成加密，公钥放置在 GitHub 上，私钥放置在自己的电脑里。 GitHub 要求每次推送代码都是合法用户，所以每次推送都需要输入账号密码验证推送用户是否是合法用户，为了省去每次输入密码的步骤，采用了 ssh，当你推送的时候，git 就会匹配你的私钥跟 GitHub 上面的公钥是否是配对的，若是匹配就认为你是合法用户，则允许推送。这样可以保证每次的推送都是正确合法的。</p>
+<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p>下载 <code>Node.js</code> 直接安装。<a id="download" href="https://nodejs.org/en/download/" target="_blank" rel="noopener"><i class="fa fa-download"></i><span> Download Now</span></a></p>
+<h3 id="检查-Git-Node-js-和-npm-是否安装成功"><a href="#检查-Git-Node-js-和-npm-是否安装成功" class="headerlink" title="检查 Git , Node.js 和 npm 是否安装成功"></a>检查 Git , Node.js 和 npm 是否安装成功</h3><p>打开命令行cmd，分别输入: </p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git --<span class="keyword">version</span></span><br><span class="line"><span class="keyword">node</span> <span class="title">--version</span></span><br><span class="line">npm --<span class="keyword">version</span></span><br></pre></td></tr></table></figure>
+<p>如出现下图所示，则表明安装成功。</p>
+<p><img src="http://p167ca9at.bkt.clouddn.com/git+node+npm.png" alt="" style="width:100%"></p>
+<h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>在命令行窗口输入：</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure>
+<p>安装 Hexo 完成后，我们首先需要在电脑中为我们的项目创建一个 <span id="inline-blue"> 指定文件夹 </span> （我在 C 盘创建了一个 blog 文件夹。<code>C:\Users\DHK\Dropbox\blog</code> )。</p>
+<p>在命令行用 cd 命令到 <span id="inline-blue"> 指定文件夹 </span> 路径下，执行下列命令， Hexo 将会在指定文件夹中新建所需要的文件。</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo init</span></span><br></pre></td></tr></table></figure>
+<p>等待安装，安装完成后，<span id="inline-blue"> 指定文件夹 </span> 的目录如下：</p>
+<figure class="highlight sqf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">├── <span class="variable">_config</span>.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── <span class="variable">_drafts</span></span><br><span class="line">|   └── <span class="variable">_posts</span></span><br><span class="line">└──</span><br></pre></td></tr></table></figure>
+<p>继续执行命令</p>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">generate</span></span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<p>Hexo 将 source 文件夹中除 posts 文件夹之外，开头命名为 (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件夹会被拷贝过去。</p>
+<p>此时打开浏览器，在浏览器地址栏输入 <a href="http://localhost:4000/" target="_blank" rel="noopener">localhost:4000/</a> （默认端口为4000）, 便可以看到最原始的博客了。以后发表博文想先预览，也可以通过 hexo server 在本地先跑起来，看看效果。</p>
+<h2 id="部署博客到-Github-Page-服务器"><a href="#部署博客到-Github-Page-服务器" class="headerlink" title="部署博客到 Github Page 服务器"></a>部署博客到 Github Page 服务器</h2><h3 id="修改-Hexo-中的-config-yml-文件"><a href="#修改-Hexo-中的-config-yml-文件" class="headerlink" title="修改 Hexo 中的 _config.yml 文件"></a>修改 Hexo 中的 _config.yml 文件</h3><p>在 Hexo 文件夹下找到 _config.yml 文件，并用文本编辑器（<a href="https://en.wikipedia.org/wiki/Text_editor" target="_blank" rel="noopener">Text Editor</a>，我用的是 <a href="https://www.sublimetext.com/" target="_blank" rel="noopener">Sublime Text</a>）打开，下图所示：</p>
+<p><img src="http://p167ca9at.bkt.clouddn.com/_config.png" alt="" style="width:100%"></p>
+<p>找到其中的 <code>deploy</code> 标签，改成下图所示形式，并保存。注意：冒号后面要加上一个空格，否则会报错。</p>
+<p><img src="http://p167ca9at.bkt.clouddn.com/deploy.png" alt="" style="width:100%"></p>
+<h3 id="将其-deploy-到仓库中"><a href="#将其-deploy-到仓库中" class="headerlink" title="将其 deploy 到仓库中"></a>将其 deploy 到仓库中</h3><p>在命令行中运行以下命令：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
+<p>再依次输入以下命令：</p>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo <span class="keyword">generate</span></span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>以上命令都是在 <span id="inline-blue"> 指定文件夹 </span> 路径下运行的。</p>
+<p>注意：可能会需要输入Github账号密码</p>
+<p>至此，个人博客就已经部署到 GitHub 上了，你可以到你的 GitHub 仓库查看是否已经更新。在浏览器中输入 username.github.io (username 改成自己的 github 账户名)，就可以看到你的个人博客了。</p>
+<h3 id="Hexo-的工作原理"><a href="#Hexo-的工作原理" class="headerlink" title="Hexo 的工作原理"></a>Hexo 的工作原理</h3><ul>
+<li>hexo clean: 清除缓存文件 (db.json) 和已生成的静态文件 (public)</li>
+<li>hexo server（可简写为：hexo s）:启动服务器</li>
+<li>hexo generate (可简写为：hexo g)：生成静态文件，将我们的数据和界面相结合生成静态文件的过程。会遍历主题文件中的 <code>source</code> 文件夹（js、css、img 等静态资源），然后建立索引，然后根据索引生成 <code>pubild</code> 文件夹中，此时的 <code>publid</code> 文件是由 html、 js、css、img 建立的纯静态文件可以通过 <code>index.html</code> 作为入口访问你的博客。</li>
+<li>hexo deploy (可简写为：hexo d)：部署文件。部署主要是根据在 <code>_config.yml</code> 中配置的 <code>git</code> 仓库或者 <code>coding</code> 的地址，将 <code>public</code> 文件上传至 github 或者 coding 中。然后再根据上面的 github 提供的 pages 服务呈现出页面。当然你也可以直接将你生成的 <code>public</code> 文件上传至你自己的服务器上。</li>
+</ul>
+<hr> ]]></content>
+      
+        <categories>
+            
+            <category> Web </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo建站日志（1） - 认识 Static Site Generator]]></title>
+      <url>/2017/12/18/Blog-development-1-Know-Static-Site-Generator/</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+
+<p><img src="http://p167ca9at.bkt.clouddn.com/static%20site%20generator.png" alt="" style="width:100%"></p>
+<a id="more"></a>
+<h2 id="网页格式：静态网页与动态网页"><a href="#网页格式：静态网页与动态网页" class="headerlink" title="网页格式：静态网页与动态网页"></a>网页格式：静态网页与动态网页</h2><p>进行网页设计(<a href="https://en.wikipedia.org/wiki/Web_design" target="_blank" rel="noopener">Web Design</a>)，需要确定网页格式。</p>
+<h3 id="静态网页"><a href="#静态网页" class="headerlink" title="静态网页"></a>静态网页</h3><p><strong>静态网站(Static Website)</strong>是指全部由HTML代码格式页面组成的网站，所有的内容包含在网页文件中。网页上也可以出现各种视觉动态效果，如GIF动画、FLASH动画、滚动字幕等，而网站主要是静态化的页面和代码组成，一般文件名均以htm、html、shtml等为后缀。</p>
+<p><strong>静态网页(Static Webpage)</strong>是指纯粹HTML格式的网页。</p>
+<p>特点：</p>
+<ul>
+<li>每个静态网页都有一个固定的网址，文件名均以htm、html、shtml等为后缀，而不含“？”；</li>
+<li>静态网页一经发布到服务器上，无论是否被访问，都是一个独立存在的文件；</li>
+<li>静态网页的内容相对稳定，不含特殊代码，因此容易被搜索引擎检索；html更加适合SEO搜索引擎优化。</li>
+<li>由于不需通过数据库工作，所以静态网页的访问速度比较快；</li>
+<li>静态网站没有数据库的支持，在网站制作和维护方面工作量较大；</li>
+<li>静态网页的交互性较差，在功能方面有较大的限制</li>
+</ul>
+<h3 id="动态网页"><a href="#动态网页" class="headerlink" title="动态网页"></a>动态网页</h3><p><strong>动态网站(Dynamic Website)</strong>是指网站内容可根据不同情况动态变更的网站。一般情况下动态网站通过数据库进行架构。</p>
+<p><strong>动态网页(Dynamic/Active Webpage)</strong>一个对所有动态生成与动态更新的网页的统称。与传统的静态网页相反，它会因为变量的改变而产生不同的网页。这既可能是服务器端生成的网页，也可能是用户端生成的网页，或是两者的混合。</p>
+<p>A <strong>Server-side Dynamic Webpage</strong> is a web page whose construction is controlled by an application server processing server-side scripts. In server-side scripting, parameters determine how the assembly of every new web page proceeds, including the setting up of more client-side processing.</p>
+<p>A <strong>Client-side Dynamic Webpage</strong> processes the web page using HTML scripting running in the browser as it loads.</p>
+<p>值得注意的是，动态网页与视觉上的动态效果无关。动态网页既可以是纯文字内容的，也可以是包含各种动画的内容，这些只是网页具体内容的表现形式。无论网页是否具有动态效果，只要是采用了动态网站技术生成的网页都可以称为动态网页。</p>
+<p>特点：</p>
+<ul>
+<li>动态网页一般以数据库技术为基础，可以大大降低网站维护的工作量；</li>
+<li>采用动态网页技术的网站可以实现交互功能，如用户注册、用户登录、在线调查、用户管理、订单管理等等；</li>
+<li>动态网页实际上并不是独立存在于服务器上的网页文件，只有当用户请求时服务器才返回一个完整的网页；</li>
+<li>动态网页由于需要数据库处理，所以动态网站的访问速度大大减慢；</li>
+<li>动态网页由于存在特殊代码，所以相比较静态网页，其对搜索引擎的友好程度相对要弱一些</li>
+</ul>
+<p>开发语言：</p>
+<ul>
+<li>ASP - Active Server Pages（活跃服务器页）</li>
+<li>ASP.NET</li>
+<li>PHP - Hypertext Preprocessor（超文本预处理器）</li>
+<li>JSP - Java Server Pages（Java服务器页面）</li>
+</ul>
+<h3 id="静态网页与动态网页的区别"><a href="#静态网页与动态网页的区别" class="headerlink" title="静态网页与动态网页的区别"></a>静态网页与动态网页的区别</h3><p>1.开发语言：</p>
+<ul>
+<li>静态网页：超文本标记语言（HTML，标准通用标记语言的一个应用）</li>
+<li>动态网页：以超文本标记语言为基础，结合上述脚本语言来编写</li>
+</ul>
+<p>2.是否在服务器端运行</p>
+<ul>
+<li>静态网页：程序、网页、插件、组件运行于客户端,例如 html 页、Flash、JavaScript、VBScript等等，它们是永远不变的</li>
+<li>动态网页：程序、网页、组件在服务器端运行，它们会随不同客户、不同时间，返回不同的网页，例如ASP、PHP、JSP、ASPnet、CGI等</li>
+</ul>
+<h2 id="静态网站生成器-Static-Site-Generator"><a href="#静态网站生成器-Static-Site-Generator" class="headerlink" title="静态网站生成器(Static Site Generator)"></a>静态网站生成器(Static Site Generator)</h2><h3 id="What-is-a-static-site-generator"><a href="#What-is-a-static-site-generator" class="headerlink" title="What is a static site generator?"></a>What is a static site generator?</h3><p>A static site generator takes source files and generates an entirely static website.</p>
+<p>There are many static site generators available used for all sorts of purposes. Some are for creating photo gallery websites from a folder of photos, others help you create documentation websites. The majority help you manage a typical website with a blog.</p>
+<p><img src="http://p167ca9at.bkt.clouddn.com/static%20site%20generator.png" alt="" style="width:100%"></p>
+<h3 id="How-does-a-static-site-generator-work"><a href="#How-does-a-static-site-generator-work" class="headerlink" title="How does a static site generator work?"></a>How does a static site generator work?</h3><p>参考：<a href="https://zhuanlan.zhihu.com/p/27682700" target="_blank" rel="noopener">静态网站生成器是如何工作的</a></p>
+<p>一个静态网站生成器的工作流程通常有以下几个步骤：</p>
+<ol>
+<li>读取源文件（e.g. 约定 markdown 格式）</li>
+<li>资源预处理</li>
+<li>模板引擎渲染</li>
+<li>生成目标文件</li>
+</ol>
+<h3 id="Why-use-a-static-site-generator"><a href="#Why-use-a-static-site-generator" class="headerlink" title="Why use a static site generator?"></a>Why use a static site generator?</h3><p>参考：<a href="https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/#why-use-a-static-site-generator" target="_blank" rel="noopener">Why use a static site generator?</a></p>
+<ul>
+<li>Less Complexity</li>
+<li>Speed</li>
+<li>Security</li>
+<li>Scalability</li>
+<li>Version Control</li>
+</ul>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p><img src="http://p167ca9at.bkt.clouddn.com/Hexo.png" alt="" style="width:100%"></p>
+<p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>是一个快速、简洁且高效的博客框架，它基于<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>。</p>
+<p>特点：</p>
+<ul>
+<li><i class="fa fa-flash"></i> 超快速度<br><i>Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染。</i></li>
+<li><i class="fa fa-pencil"></i> 支持Markdown<br><i>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。</i></li>
+<li><i class="fa fa-cloud-upload"></i> 一键部署<br><i>只需一条指令即可部署到Github Pages，或其他网站</i></li>
+<li><i class="fa fa-cog"></i> 丰富的插件<br><i>Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。</i></li>
+</ul>
+<p>通过 Hexo 可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 <a href="https://hexo.io/zh-cn/docs/tag-plugins.html" target="_blank" rel="noopener">标签插件</a> 来快速的插入特定形式的内容。</p>
+<hr>]]></content>
+      
+        <categories>
+            
+            <category> Web </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
             
         </tags>
         
