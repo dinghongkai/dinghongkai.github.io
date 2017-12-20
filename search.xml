@@ -9,7 +9,7 @@
 
 <a id="more"></a>
 <p>博客托管在 Github 上，博客地址为 Github 的二级域名 [username.github.io]，不容易让人记住，也很难让百度收录。因而可以自己注册购买个性域名（Domain），并绑定自己的博客。</p>
-<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>国内：<a href="https://cn.aliyun.com/" target="_blank" rel="noopener">阿里云</a>等<br>国外：<a href="https://www.godaddy.com/" target="_blank" rel="noopener">Godaddy</a>、<a href="https://www.namecheap.com/" target="_blank" rel="noopener">Namecheap</a>等</p>
+<h2 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h2><p>国内：<a href="https://cn.aliyun.com/" target="_blank" rel="noopener">阿里云</a> 等<br>国外：<a href="https://www.godaddy.com/" target="_blank" rel="noopener">Godaddy</a>、<a href="https://www.namecheap.com/" target="_blank" rel="noopener">Namecheap</a> 等</p>
 <p>在国内注册需要备案，时间约一周左右。</p>
 <p>域名有各式各样的后缀，常见的有 com, cn, net, org 等，也有小众的 cc, me, io等等，如饿了么的官网的域名是：<a href="https://www.ele.me/" target="_blank" rel="noopener">ele.me</a> ，很是巧妙。</p>
 <p>我们的项目托管在 github 上，不需要再另外购买空间（Hosting）。</p>
@@ -17,8 +17,7 @@
 <p><img src="http://p167ca9at.bkt.clouddn.com/Domain.png" alt="Domain"></p>
 <h2 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h2><p>域名解析就是把域名指向网站空间 IP ，从而通过域名就可以访问到网站。</p>
 <p>DNS（Domain Name Server，域名服务器）就是进行域名(domain name)和与之相对应的 IP 地址 (IP address)转换的服务器。</p>
-<p>选择 <a href="https://www.dnspod.cn/" target="_blank" rel="noopener">DNSPOD</a> 来设置 DNS ，速度快、免费、且稳定。</p>
-<p>注册之后，选择 域名解析-&gt;添加域名</p>
+<p>选择 <a href="https://www.dnspod.cn/" target="_blank" rel="noopener">DNSPOD</a> 来设置 DNS ，速度快、免费、且稳定。注册之后，选择 域名解析-&gt;添加域名。</p>
 <p><img src="http://p167ca9at.bkt.clouddn.com/dnspod1.png" alt="dnspod_domain"></p>
 <p>添加之后点击进入，再 <code>添加记录</code></p>
 <p><img src="http://p167ca9at.bkt.clouddn.com/dnspod2.png" alt="dnspod_record"></p>
