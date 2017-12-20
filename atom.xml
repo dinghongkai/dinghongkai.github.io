@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dinghongkai.com/"/>
-  <updated>2017-12-20T04:40:22.139Z</updated>
+  <updated>2017-12-20T06:41:43.182Z</updated>
   <id>http://dinghongkai.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo建站日志 (7) - 绑定个性域名</title>
+    <link href="http://dinghongkai.com/2017/12/19/Blog-development-7-Connection-with-Personal-Domain/"/>
+    <id>http://dinghongkai.com/2017/12/19/Blog-development-7-Connection-with-Personal-Domain/</id>
+    <published>2017-12-19T08:22:19.000Z</published>
+    <updated>2017-12-20T06:41:43.182Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Web" scheme="http://dinghongkai.com/categories/Web/"/>
+    
+    
+      <category term="Hexo，Domain" scheme="http://dinghongkai.com/tags/Hexo%EF%BC%8CDomain/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo建站日志 (6) - 添加文章书写样式</title>
