@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[Hexo建站日志 (6) - 添加文章书写样式]]></title>
       <url>/2017/12/19/Blog-development-6-Customized-Style-of-Writing/</url>
-      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+      <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="\assets\js\APlayer.min.js"> </script><p class="description"></p>
 
 <a id="more"></a>
 <p>新文章创建：</p>
@@ -135,7 +135,7 @@
     <entry>
       <title><![CDATA[Hexo建站日志 (5) - NexT 主题进阶配置]]></title>
       <url>/2017/12/19/Blog-development-5-NexT-Theme-Advanced-Customization/</url>
-      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+      <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="\assets\js\APlayer.min.js"> </script><p class="description"></p>
 
 <a id="more"></a>
 <h2 id="页面设置"><a href="#页面设置" class="headerlink" title="页面设置"></a>页面设置</h2><h3 id="主页文章添加边框阴影效果"><a href="#主页文章添加边框阴影效果" class="headerlink" title="主页文章添加边框阴影效果"></a>主页文章添加边框阴影效果</h3><p>打开 <code>themes/next/source/css/_custom/</code> 下的 <code>custom.styl</code>，向里面加代码：</p>
@@ -272,7 +272,7 @@
     <entry>
       <title><![CDATA[Hexo建站日志 (4) - NexT 主题及初步设置]]></title>
       <url>/2017/12/18/Blog-development-4-NexT-Theme-and-Basic-Customization/</url>
-      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+      <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="\assets\js\APlayer.min.js"> </script><p class="description"></p>
 
 <a id="more"></a>
 <p>在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置，将其称为 <span id="inline-blue"> 站点配置文件 </span>；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项，将其称为 <span id="inline-purple"> 主题配置文件 </span>。</p>
@@ -514,7 +514,7 @@
     <entry>
       <title><![CDATA[Hexo建站日志 (3) - 深入理解 Hexo]]></title>
       <url>/2017/12/18/Blog-development-3-Know-Hexo/</url>
-      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+      <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="\assets\js\APlayer.min.js"> </script><p class="description"></p>
 
 <a id="more"></a>
 <h2 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h2><h3 id="Hexo-默认目录结构"><a href="#Hexo-默认目录结构" class="headerlink" title="Hexo 默认目录结构"></a>Hexo 默认目录结构</h3><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy         <span class="meta">#执行hexo deploy命令部署到GitHub上的内容目录</span></span><br><span class="line">├── <span class="keyword">public</span>          <span class="meta">#执行hexo generate命令，输出的静态网页内容目录</span></span><br><span class="line">├── scaffolds       <span class="meta">#layout模板文件目录，其中的md文件可以添加编辑</span></span><br><span class="line">├── scripts         <span class="meta">#扩展脚本目录，这里可以自定义一些javascript脚本</span></span><br><span class="line">├── source          <span class="meta">#文章源码目录，该目录下的markdown和html文件均会被hexo处理。</span></span><br><span class="line">|   ├── _drafts     <span class="meta">#草稿文章</span></span><br><span class="line">|   └── _posts      <span class="meta">#执行hexo new "title"后，新建的文章存储在此文件夹下</span></span><br><span class="line">├── themes          <span class="meta">#主题文件目录</span></span><br><span class="line">├──_config.yml      <span class="meta">#全局配置文件，大多数的设置都在这里</span></span><br><span class="line">└── <span class="keyword">package</span>.json    <span class="meta">#应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</span></span><br></pre></td></tr></table></figure>
@@ -615,7 +615,7 @@
     <entry>
       <title><![CDATA[Hexo建站日志 (2) - Github Pages + Hexo 创建博客]]></title>
       <url>/2017/12/18/Blog-development-2-GithubvPages-Hexo/</url>
-      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+      <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="\assets\js\APlayer.min.js"> </script><p class="description"></p>
 
 <a id="more"></a>
 <h2 id="使用-GitHub-Pages-建立博客站点"><a href="#使用-GitHub-Pages-建立博客站点" class="headerlink" title="使用 GitHub Pages 建立博客站点"></a>使用 GitHub Pages 建立博客站点</h2><h3 id="什么是-GitHub-Pages"><a href="#什么是-GitHub-Pages" class="headerlink" title="什么是 GitHub Pages"></a>什么是 GitHub Pages</h3><p><code>Github</code> 是项目托管网站,列出了项目的源文件。<code>Github Pages</code> 可以被认为是用户编写的、托管在github上的静态网页。</p>
@@ -703,7 +703,7 @@
     <entry>
       <title><![CDATA[Hexo建站日志（1） - 认识 Static Site Generator]]></title>
       <url>/2017/12/18/Blog-development-1-Know-Static-Site-Generator/</url>
-      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p class="description"></p>
+      <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="\assets\js\APlayer.min.js"> </script><p class="description"></p>
 
 <a id="more"></a>
 <h2 id="网页格式：静态网页与动态网页"><a href="#网页格式：静态网页与动态网页" class="headerlink" title="网页格式：静态网页与动态网页"></a>网页格式：静态网页与动态网页</h2><p>进行网页设计(<a href="https://en.wikipedia.org/wiki/Web_design" target="_blank" rel="noopener">Web Design</a>)，需要确定网页格式。</p>
