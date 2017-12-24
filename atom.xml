@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dinghongkai.com/"/>
-  <updated>2017-12-20T06:46:08.000Z</updated>
+  <updated>2017-12-24T19:52:48.996Z</updated>
   <id>http://dinghongkai.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git Learning Notes</title>
+    <link href="http://dinghongkai.com/2017/12/23/Git-Learning-Notes/"/>
+    <id>http://dinghongkai.com/2017/12/23/Git-Learning-Notes/</id>
+    <published>2017-12-24T05:20:11.000Z</published>
+    <updated>2017-12-24T19:52:48.996Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Git" scheme="http://dinghongkai.com/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo建站日志 (7) - 绑定个性域名</title>
