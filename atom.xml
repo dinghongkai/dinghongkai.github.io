@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dinghongkai.com/"/>
-  <updated>2017-12-24T19:52:48.996Z</updated>
+  <updated>2018-03-13T07:57:08.257Z</updated>
   <id>http://dinghongkai.com/</id>
   
   <author>
@@ -17,10 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Communication skills for researcher</title>
+    <link href="http://dinghongkai.com/2018/03/13/Communication-skills-for-researcher/"/>
+    <id>http://dinghongkai.com/2018/03/13/Communication-skills-for-researcher/</id>
+    <published>2018-03-13T07:40:48.000Z</published>
+    <updated>2018-03-13T07:57:08.257Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Graduate Study" scheme="http://dinghongkai.com/categories/Graduate-Study/"/>
+    
+    
+      <category term="Communication，Email" scheme="http://dinghongkai.com/tags/Communication%EF%BC%8CEmail/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Git Learning Notes</title>
     <link href="http://dinghongkai.com/2017/12/23/Git-Learning-Notes/"/>
     <id>http://dinghongkai.com/2017/12/23/Git-Learning-Notes/</id>
-    <published>2017-12-24T05:20:11.000Z</published>
+    <published>2017-12-23T15:20:11.000Z</published>
     <updated>2017-12-24T19:52:48.996Z</updated>
     
     <summary type="html">
@@ -38,7 +60,7 @@
     <title>Hexo建站日志 (7) - 绑定个性域名</title>
     <link href="http://dinghongkai.com/2017/12/19/Blog-development-7-Connection-with-Personal-Domain/"/>
     <id>http://dinghongkai.com/2017/12/19/Blog-development-7-Connection-with-Personal-Domain/</id>
-    <published>2017-12-19T08:22:19.000Z</published>
+    <published>2017-12-18T18:22:19.000Z</published>
     <updated>2017-12-20T06:46:08.000Z</updated>
     
     <summary type="html">
@@ -58,7 +80,7 @@
     <title>Hexo建站日志 (6) - 添加文章书写样式</title>
     <link href="http://dinghongkai.com/2017/12/19/Blog-development-6-Customized-Style-of-Writing/"/>
     <id>http://dinghongkai.com/2017/12/19/Blog-development-6-Customized-Style-of-Writing/</id>
-    <published>2017-12-19T07:37:21.000Z</published>
+    <published>2017-12-18T17:37:21.000Z</published>
     <updated>2017-12-22T21:38:00.233Z</updated>
     
     <summary type="html">
@@ -80,7 +102,7 @@
     <title>Hexo建站日志 (5) - NexT 主题进阶配置</title>
     <link href="http://dinghongkai.com/2017/12/19/Blog-development-5-NexT-Theme-Advanced-Customization/"/>
     <id>http://dinghongkai.com/2017/12/19/Blog-development-5-NexT-Theme-Advanced-Customization/</id>
-    <published>2017-12-19T06:55:32.000Z</published>
+    <published>2017-12-18T16:55:32.000Z</published>
     <updated>2017-12-22T21:18:11.419Z</updated>
     
     <summary type="html">
@@ -100,7 +122,7 @@
     <title>Hexo建站日志 (4) - NexT 主题及初步设置</title>
     <link href="http://dinghongkai.com/2017/12/18/Blog-development-4-NexT-Theme-and-Basic-Customization/"/>
     <id>http://dinghongkai.com/2017/12/18/Blog-development-4-NexT-Theme-and-Basic-Customization/</id>
-    <published>2017-12-19T04:22:00.000Z</published>
+    <published>2017-12-18T14:22:00.000Z</published>
     <updated>2017-12-22T20:30:23.685Z</updated>
     
     <summary type="html">
@@ -122,7 +144,7 @@
     <title>Hexo建站日志 (3) - 深入理解 Hexo</title>
     <link href="http://dinghongkai.com/2017/12/18/Blog-development-3-Know-Hexo/"/>
     <id>http://dinghongkai.com/2017/12/18/Blog-development-3-Know-Hexo/</id>
-    <published>2017-12-19T03:38:46.000Z</published>
+    <published>2017-12-18T13:38:46.000Z</published>
     <updated>2017-12-21T22:51:54.929Z</updated>
     
     <summary type="html">
@@ -142,7 +164,7 @@
     <title>Hexo建站日志 (2) - Github Pages + Hexo 创建博客</title>
     <link href="http://dinghongkai.com/2017/12/18/Blog-development-2-GithubvPages-Hexo/"/>
     <id>http://dinghongkai.com/2017/12/18/Blog-development-2-GithubvPages-Hexo/</id>
-    <published>2017-12-18T21:32:49.000Z</published>
+    <published>2017-12-18T07:32:49.000Z</published>
     <updated>2017-12-20T23:14:58.000Z</updated>
     
     <summary type="html">
@@ -162,7 +184,7 @@
     <title>Hexo建站日志（1） - 认识 Static Site Generator</title>
     <link href="http://dinghongkai.com/2017/12/18/Blog-development-1-Know-Static-Site-Generator/"/>
     <id>http://dinghongkai.com/2017/12/18/Blog-development-1-Know-Static-Site-Generator/</id>
-    <published>2017-12-18T18:45:50.000Z</published>
+    <published>2017-12-18T04:45:50.000Z</published>
     <updated>2017-12-20T02:59:35.000Z</updated>
     
     <summary type="html">
