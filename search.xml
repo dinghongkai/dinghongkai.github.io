@@ -61,7 +61,7 @@
 <p>简单来讲，Git 是一个分布式版本控制系统，它允许软件开发者可以共同参与一个软件开发专案，但是不必在相同的网络系统下工作。</p>
 <h2 id="Git-安装"><a href="#Git-安装" class="headerlink" title="Git 安装"></a>Git 安装</h2><h3 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h3><p>Windows 上安装 Git，从 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git 官网</a>下载安装程序，按默认选项安装即可。</p>
 <p>安装完成后，在开始菜单里找到并打开 “Git” -&gt; “Git Bash” ，若出现如下图所示的类似命令行窗口的东西，说明Git安装成功！</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/Git%20bash.png" alt="Git Bash"></p>
+<p><img src="https://ae01.alicdn.com/kf/Hbca6d50d87f44cd1a09a418fdac9d499p.png" alt="Git Bash"></p>
 <h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>安装完成后，还需要进行设置，在命令行输入：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"Your Name"</span></span><br><span class="line">git config --global user.email <span class="string">"Your Email"</span></span><br></pre></td></tr></table></figure>
 <h2 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h2><p>版本库（repository），可以简单理解成一个目录，这个目录里面的所有文件都可以被 Git 管理起来，每个文件的修改、删除，Git 都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。</p>
@@ -116,7 +116,7 @@
 </li>
 </ul>
 <p><code>git add</code> 命令实际上是把工作区的文件修改添加到暂存区，<code>git commit</code> 命令实际上是把暂存区的所有内容提交到当前分支，如下图所示。</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/working_directory$repository.jpg" alt="working_directory$repository"></p>
+<p><img src="https://ae01.alicdn.com/kf/H2f77a9979e48413e8da5c52375c0c06c1.jpg" alt="working_directory$repository"></p>
 <h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><p>先修改 <code>readme.txt</code> 文件如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Git is a distributed version control system.</span><br><span class="line">Git is free software distributed under the GPL.</span><br></pre></td></tr></table></figure>
 <p>添加并提交：</p>
@@ -259,7 +259,7 @@
 <h2 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h2><h3 id="什么是分支"><a href="#什么是分支" class="headerlink" title="什么是分支"></a>什么是分支</h3><p>在版本回退里，每次提交，Git 都把它们串成一条时间线，这条时间线就是一个分支。</p>
 <p>Git 的默认分支叫主分支，即 <code>master</code> 分支。 <code>HEAD</code> 并不是直接指向提交，而是指向当前分支，例如 master 分支，<code>master</code> 指向提交。</p>
 <p>每次提交，master 分支都会向前移动一步，如此随着不断提交，master 分支的线也越来越长：</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/master.png" alt="master"></p>
+<p><img src="https://ae01.alicdn.com/kf/H878db1af6bf848e5b6d25398e96249efM.png" alt="master"></p>
 <h3 id="创建与合并分支"><a href="#创建与合并分支" class="headerlink" title="创建与合并分支"></a>创建与合并分支</h3><ul>
 <li>运行 <code>git branch &lt;name&gt;</code> 命令可创建分支;</li>
 <li>运行 <code>git checkout &lt;name&gt;</code> 命令可切换分支;</li>
@@ -273,7 +273,7 @@
 <li>创建并切换到 <code>dev</code> 分支：</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b dev</span><br></pre></td></tr></table></figure>
-<p><img src="http://p167ca9at.bkt.clouddn.com/new_branch.png" alt="new branch"></p>
+<p><img src="https://ae01.alicdn.com/kf/H5f6dc58881b74a6b91ab2c80e3eac622Q.png" alt="new branch"></p>
 <ul>
 <li>查看当前分支：</li>
 </ul>
@@ -291,13 +291,13 @@
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git checkout master</span><br><span class="line">Switched to branch <span class="string">'master'</span></span><br></pre></td></tr></table></figure>
 <p>切换回 master 分支后，再查看一个 eadme.txt 文件，刚才添加的内容不见了！因为之前的提交是在 dev 分支上，而 master 分支此刻的提交点并没有变。</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/dev.png" alt="dev"></p>
+<p><img src="https://ae01.alicdn.com/kf/H00b648fa3ffc4277bf834f5aaf4effdbG.png" alt="dev"></p>
 <ul>
 <li>将 <code>dev</code> 分支的工作成果合并到 <code>master</code> 分支上：</li>
 </ul>
 <figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git merge dev</span><br><span class="line">Updating d17efd8..fec145a</span><br><span class="line">Fast-forward</span><br><span class="line"> readme.txt |    <span class="number">1</span> +</span><br><span class="line"> <span class="number">1</span> file <span class="section">changed</span>, <span class="number">1</span> insertion(+)</span><br></pre></td></tr></table></figure>
 <p>合并后，再查看 readme.txt 的内容，就可以看到，和 dev 分支的最新提交是完全一样的。</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/merge_branch.png" alt="merge_branch"></p>
+<p><img src="https://ae01.alicdn.com/kf/H5f4204a25d4549469aaf4a7f4e18823fL.png" alt="merge_branch"></p>
 <ul>
 <li>合并完成后，就可以放心地删除 dev 分支了：</li>
 </ul>
@@ -334,13 +334,13 @@
 <p>域名有各式各样的后缀，常见的有 com, cn, net, org 等，也有小众的 cc, me, io等等，如饿了么的官网的域名是：<a href="https://www.ele.me/" target="_blank" rel="noopener">ele.me</a> ，很是巧妙。</p>
 <p>我们的项目托管在 github 上，不需要再另外购买空间（Hosting）。</p>
 <h2 id="将个人域名与-GitHub-Pages-的空间绑定"><a href="#将个人域名与-GitHub-Pages-的空间绑定" class="headerlink" title="将个人域名与 GitHub Pages 的空间绑定"></a>将个人域名与 GitHub Pages 的空间绑定</h2><p>打开 <code>https://github.com/{username}/{dinghongkai}.github.io</code> ，{username}为自己的Github用户名，找到 <code>CNAME</code> 文件。若没有则在 Github 项目里新建一个。打开并添加自己购买的域名，如下图所示。保存后，部署你的博客即可。</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/Domain.png" alt="Domain"></p>
+<p><img src="https://ae01.alicdn.com/kf/H96e69673da0b4640a0057fcb036d4fc69.png" alt="Domain"></p>
 <h2 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h2><p>域名解析就是把域名指向网站空间 IP ，从而通过域名就可以访问到网站。</p>
 <p>DNS（Domain Name Server，域名服务器）就是进行域名(domain name)和与之相对应的 IP 地址 (IP address)转换的服务器。</p>
 <p>选择 <a href="https://www.dnspod.cn/" target="_blank" rel="noopener">DNSPOD</a> 来设置 DNS ，速度快、免费、且稳定。注册之后，选择 域名解析-&gt;添加域名。</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/dnspod1.png" alt="dnspod_domain"></p>
+<p><img src="https://ae01.alicdn.com/kf/H20f10c06381b49e6829df246d7d8c7f57.png" alt="dnspod_domain"></p>
 <p>添加之后点击进入，再 <code>添加记录</code></p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/dnspod2.png" alt="dnspod_record"></p>
+<p><img src="https://ae01.alicdn.com/kf/H4c6340e161b448d9a176299fae993973v.png" alt="dnspod_record"></p>
 <p>其中两条A记录指向的 IP 地址是 GitHub Pages 的提供的 IP ：</p>
 <blockquote>
 <p>192.30.252.153<br>192.30.252.154</p>
@@ -380,7 +380,7 @@
 <p><code>hexo new page &quot;title</code> 用来创建新菜单页面</p>
 <p><code>hexo new draft &quot;title</code> 用来创建新草稿</p>
 <p>在 Hexo 中执行 <code>hexo new &quot;title&quot;</code> 命令，默认是执行 <code>hexo new post &quot;title&quot;</code> 命令。若想修改默认设置，需在 <span id="inline-blue">站点配置文件</span> 中修改，如下图所示：</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/default_layout.png" alt="default_layout"></p>
+<p><img src="https://ae01.alicdn.com/kf/H91651c3f7877444bbe5c0d9d19801f355.png" alt="default_layout"></p>
 <p>执行 <code>hexo new &quot;title&quot;</code> 命令新建的文章，实际上是将 <code>~/blog/scaffolds/</code> 中的文章模板文件 <code>post.md</code> 复制到了 <code>~/blog/source/_posts/</code> 下。自定义此模板文件，可以使每次新建的文章都会有自定义的内容。</p>
 <p>参考阅读 Hexo 官方文档的 <a href="https://hexo.io/docs/front-matter.html" target="_blank" rel="noopener">Front-matter</a> 和 <a href="https://hexo.io/zh-cn/docs/variables.html#页面变量" target="_blank" rel="noopener">页面变量</a>。</p>
 <h2 id="Note-tag-Bootstrap-Callout"><a href="#Note-tag-Bootstrap-Callout" class="headerlink" title="Note tag - Bootstrap Callout"></a>Note tag - Bootstrap Callout</h2><p>在主题配置文件 <code>~/blog/themes/next/_config.yml</code> 中修改。</p>
@@ -1049,7 +1049,7 @@
 <h3 id="检查-Git-Node-js-和-npm-是否安装成功"><a href="#检查-Git-Node-js-和-npm-是否安装成功" class="headerlink" title="检查 Git , Node.js 和 npm 是否安装成功"></a>检查 Git , Node.js 和 npm 是否安装成功</h3><p>打开命令行cmd，分别输入:</p>
 <figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git --<span class="keyword">version</span></span><br><span class="line"><span class="keyword">node</span> <span class="title">--version</span></span><br><span class="line">npm --<span class="keyword">version</span></span><br></pre></td></tr></table></figure>
 <p>如出现下图所示，则表明安装成功。</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/git+node+npm.png" alt="" style="width:100%"></p>
+<p><img src="https://ae01.alicdn.com/kf/H0b0ebc18d830471ba73602a7a3c3ad88Y.png" alt="" style="width:100%"></p>
 <h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>在命令行窗口输入：</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure>
 <p>安装 Hexo 完成后，我们首先需要在电脑中为我们的项目创建一个 <span id="inline-blue"> 指定文件夹 </span> （我在 C 盘创建了一个 blog 文件夹。<code>C:\Users\DHK\Dropbox\blog</code> )。</p>
@@ -1062,9 +1062,9 @@
 <p>Hexo 将 source 文件夹中除 posts 文件夹之外，开头命名为 (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件夹会被拷贝过去。</p>
 <p>此时打开浏览器，在浏览器地址栏输入 <a href="http://localhost:4000/" target="_blank" rel="noopener">localhost:4000/</a> （默认端口为4000）, 便可以看到最原始的博客了。以后发表博文想先预览，也可以通过 hexo server 在本地先跑起来，看看效果。</p>
 <h2 id="部署博客到-Github-Page-服务器"><a href="#部署博客到-Github-Page-服务器" class="headerlink" title="部署博客到 Github Page 服务器"></a>部署博客到 Github Page 服务器</h2><h3 id="修改-Hexo-中的-config-yml-文件"><a href="#修改-Hexo-中的-config-yml-文件" class="headerlink" title="修改 Hexo 中的 _config.yml 文件"></a>修改 Hexo 中的 _config.yml 文件</h3><p>在 Hexo 文件夹下找到 _config.yml 文件，并用文本编辑器（<a href="https://en.wikipedia.org/wiki/Text_editor" target="_blank" rel="noopener">Text Editor</a>，我用的是 <a href="https://atom.io/" target="_blank" rel="noopener">Atom</a>）打开，下图所示：</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/_config.png" alt="" style="width:100%"></p>
+<p><img src="https://ae01.alicdn.com/kf/H50dae7dc0d1b4fa98dc006618d4064afX.png" alt="" style="width:100%"></p>
 <p>找到其中的 <code>deploy</code> 标签，改成下图所示形式，并保存。注意：冒号后面要加上一个空格，否则会报错。</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/deploy.png" alt="" style="width:100%"></p>
+<p><img src="https://ae01.alicdn.com/kf/He90a7d7be2b04916bd12a5d019c6d7b1K.png" alt="" style="width:100%"></p>
 <h3 id="将其-deploy-到仓库中"><a href="#将其-deploy-到仓库中" class="headerlink" title="将其 deploy 到仓库中"></a>将其 deploy 到仓库中</h3><p>在命令行中运行以下命令：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
 <p>再依次输入以下命令：</p>
@@ -1153,7 +1153,7 @@
 </ul>
 <h2 id="静态网站生成器-Static-Site-Generator"><a href="#静态网站生成器-Static-Site-Generator" class="headerlink" title="静态网站生成器(Static Site Generator)"></a>静态网站生成器(Static Site Generator)</h2><h3 id="What-is-a-static-site-generator"><a href="#What-is-a-static-site-generator" class="headerlink" title="What is a static site generator?"></a>What is a static site generator?</h3><p>A static site generator takes source files and generates an entirely static website.</p>
 <p>There are many static site generators available used for all sorts of purposes. Some are for creating photo gallery websites from a folder of photos, others help you create documentation websites. The majority help you manage a typical website with a blog.</p>
-<p><img src="http://p167ca9at.bkt.clouddn.com/static%20site%20generator.png" alt="Static Site Generator"></p>
+<p><img src="https://ae01.alicdn.com/kf/Hbbe1fc6778054645bf19082c5456037eS.png" alt="Static Site Generator"></p>
 <h3 id="How-does-a-static-site-generator-work"><a href="#How-does-a-static-site-generator-work" class="headerlink" title="How does a static site generator work?"></a>How does a static site generator work?</h3><p>参考：<a href="https://zhuanlan.zhihu.com/p/27682700" target="_blank" rel="noopener">静态网站生成器是如何工作的</a></p>
 <p>一个静态网站生成器的工作流程通常有以下几个步骤：</p>
 <ol>
@@ -1170,7 +1170,7 @@
 <li>Scalability</li>
 <li>Version Control</li>
 </ul>
-<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p><img src="http://p167ca9at.bkt.clouddn.com/Hexo.png" alt="Hexo"></p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p><img src="https://ae01.alicdn.com/kf/He5d000c899e8442ebc6feb1b621ae8d2V.png" alt="Hexo"></p>
 <p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一个快速、简洁且高效的博客框架，它基于 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>。</p>
 <p>特点：</p>
 <ul>
